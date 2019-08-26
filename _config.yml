@@ -1,1 +1,8 @@
 theme: jekyll-theme-tactile
+title: github-pages-demo.info
+
+exclude:
+  - CNAME
+  - Gemfile*
+  - README.md
+  - LICENSE
