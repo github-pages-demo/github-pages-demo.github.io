@@ -7,6 +7,7 @@ description: Demo site for GitHub Pages&#58; An Often Overlooked Platform presen
 This site is meant to accompany the GitHub Pages: An Often Overlooked Platform presentation.
 
 ## Blog Posts
+[Feed](/blog-feed.json)
 
 {% for post in site.posts %}
 
