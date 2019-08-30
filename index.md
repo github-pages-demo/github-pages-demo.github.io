@@ -26,6 +26,20 @@ From {{ author.location }}
 
 {% endfor %}
 
+## Favorite Movie Characters
+{% for character in site.data.characters %}
+
+- {{ character.character }} ({{ character.actor }}) in {{ character.movie }}
+
+{% endfor %}
+
+## Favorite Books
+{% for book in site.data.books %}
+
+- {{ book.title }} by {{ book.author }} ({{ book.published }})
+
+{% endfor %}
+
 ## Contact Me
 
 {% include contact.html %}
