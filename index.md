@@ -15,6 +15,17 @@ This site is meant to accompany the GitHub Pages: An Often Overlooked Platform p
 
 {% endfor %}
 
+## Blog Authors
+
+{% for author in site.authors %}
+
+### {{ author.name }}
+![profile pic]({{ author.pic }})
+
+From {{ author.location }}
+
+{% endfor %}
+
 ## Contact Me
 
 {% include contact.html %}

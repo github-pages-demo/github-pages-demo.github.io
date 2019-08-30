@@ -6,3 +6,6 @@ exclude:
   - Gemfile*
   - README.md
   - LICENSE
+
+collections:
+  - authors
